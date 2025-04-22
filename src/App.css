@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+* {
+  box-sizing: border-box;
+}
 
 @theme {
   --breakpoint-*: initial;
@@ -24,9 +27,6 @@
   src: url("./assets/fonts/Poppins-Regular.ttf") format("ttf");
 }
 
-* {
-  box-sizing: border-box;
-}
 
 body {
   width: auto;
