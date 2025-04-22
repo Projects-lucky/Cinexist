@@ -1,0 +1,1 @@
+import{j as e}from"./index-B49es1wc.js";const s=()=>e.jsxs("div",{className:"w-full h-screen flex flex-col items-center justify-center bg-c-d-grey text-c-white",children:[e.jsx("h1",{className:"text-c-red text-3xl font-semibold",children:"404 - Page Not Found"}),e.jsx("p",{className:"text-2xl",children:"The page you are looking for does not exist."})]});export{s as default};
