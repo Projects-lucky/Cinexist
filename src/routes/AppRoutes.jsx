@@ -12,7 +12,7 @@
 // - 404 handling: Displays the `NotFound` component for undefined routes.
 // - Responsive design: Ensures proper navigation across various devices and screen sizes.
 
-import { HashRouter  as Router, Routes, Route } from 'react-router-dom';
+import {  BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 
 // Lazy-loaded pages for better performance
