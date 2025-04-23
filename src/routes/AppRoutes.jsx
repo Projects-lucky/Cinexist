@@ -16,14 +16,14 @@ import {  BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 
 // Lazy-loaded pages for better performance
-const HomePage = lazy(() => import('../pages/Home'));
-const SearchPage = lazy(() => import('../pages/search'));
-const LoginForm = lazy(() => import('../pages/Login'));
-const NotFound = lazy(() => import('../pages/NotFound'));
-const Categories = lazy(() => import('../pages/categories'));
-const PageDetails = lazy(() => import('../pages/details'));
-const WatchList = lazy(() => import('../pages/watchList'));
-const SignupForm = lazy(() => import('../pages/SignupForm'));
+const HomePage = lazy(() => import('../pages/Home.jsx'));
+const SearchPage = lazy(() => import('../pages/search.jsx'));
+const LoginForm = lazy(() => import('../pages/Login.jsx'));
+const NotFound = lazy(() => import('../pages/NotFound.jsx'));
+const Categories = lazy(() => import('../pages/categories.jsx'));
+const PageDetails = lazy(() => import('../pages/details.jsx'));
+const WatchList = lazy(() => import('../pages/watchList.jsx'));
+const SignupForm = lazy(() => import('../pages/SignupForm.jsx'));
 import FallBack from '../components/FallBack';
 import ProtectedRoutes from './ProtectedRoutes';
 

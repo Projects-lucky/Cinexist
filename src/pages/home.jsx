@@ -10,7 +10,6 @@
 // - Footer integration: Includes the `Footer` component for additional navigation links and app download options.
 // - Responsive design: Adapts to various screen sizes for an optimal viewing experience.
 
-import { useState, useEffect } from 'react';
 import ToggleButton from '../components/Button';
 import MainSection from '../layout/MainSection';
 import Header from '../layout/header';
