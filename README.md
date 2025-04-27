@@ -1,7 +1,7 @@
-# Cinexist
+# Cinexist (FRONTEND)
 
 ## Overview
-The **NewMovie Application** is a web-based platform for exploring, searching, and managing movies and TV shows. It provides users with features such as browsing categories, viewing detailed information about movies and TV shows, creating a personalized watchlist, and more.
+The **Cinexist Application** is a web-based platform for exploring, searching, and managing movies and TV shows. It provides users with features such as browsing categories, viewing detailed information about movies and TV shows, creating a personalized watchlist, and more.
 
 ## Features
 - **Home Page**: Displays trending and featured content.
